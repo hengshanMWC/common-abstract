@@ -1,8 +1,15 @@
 {
   "name": "item-template",
-  "main": "dist/demo.js",
-  "module": "dist/demo.mjs",
+  "main": "dist/common-abstract.js",
+  "module": "dist/common-abstract.mjs",
   "license": "MIT",
+  "lint-staged": {
+    "{server,client}/*.{js,ts,json,md,tsx}": "yarn lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.gz.cvte.cn:sys_design_supply/bytello-meeting-os-frontend.git"
+  },
   "scripts": {
     "lint": "eslint --ext=js,ts,json,md,tsx .",
     "lint:fix": "eslint --fix --ext=js,ts,json,md,tsx .",
