@@ -1,12 +1,9 @@
 {
   "name": "common-abstract",
-  "main": "dist/common-abstract.umd.js",
-  "module": "dist/common-abstract.mjs",
-  "license": "MIT",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.21.0",
-  "lint-staged": {
-    "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"
-  },
+  "license": "MIT",
+  "homepage": "https://github.com/hengshanMWC/common-abstract#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hengshanMWC/common-abstract.git"
@@ -14,7 +11,9 @@
   "bugs": {
     "url": "https://github.com/hengshanMWC/common-abstract/issues"
   },
-  "homepage": "https://github.com/hengshanMWC/common-abstract#readme",
+
+  "main": "dist/common-abstract.umd.js",
+  "module": "dist/common-abstract.mjs",
   "scripts": {
     "lint": "eslint --ext=js,ts,json,md,tsx .",
     "lint:fix": "eslint --fix --ext=js,ts,json,md,tsx .",
@@ -36,5 +35,8 @@
     "typescript": "^4.5.5",
     "vite": "^3.2.4",
     "vitepress": "1.0.0-alpha.29"
+  },
+  "lint-staged": {
+    "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"
   }
 }
