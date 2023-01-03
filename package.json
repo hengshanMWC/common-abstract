@@ -1,5 +1,5 @@
 {
-  "name": "item-template",
+  "name": "common-abstract",
   "main": "dist/common-abstract.umd.js",
   "module": "dist/common-abstract.mjs",
   "license": "MIT",
@@ -9,8 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:hengshanMWC/common-abstract.git"
+    "url": "git+https://github.com/hengshanMWC/common-abstract.git"
   },
+  "bugs": {
+    "url": "https://github.com/hengshanMWC/common-abstract/issues"
+  },
+  "homepage": "https://github.com/hengshanMWC/common-abstract#readme",
   "scripts": {
     "lint": "eslint --ext=js,ts,json,md,tsx .",
     "lint:fix": "eslint --fix --ext=js,ts,json,md,tsx .",
