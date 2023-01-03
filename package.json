@@ -1,6 +1,6 @@
 {
   "name": "common-abstract",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@7.21.0",
   "license": "MIT",
   "homepage": "https://github.com/hengshanMWC/common-abstract#readme",
@@ -11,6 +11,12 @@
   "bugs": {
     "url": "https://github.com/hengshanMWC/common-abstract/issues"
   },
+  "keywords": [
+    "typescript",
+    "class",
+    "interface",
+    "abstract"
+  ],
 
   "main": "dist/common-abstract.umd.js",
   "module": "dist/common-abstract.mjs",
