@@ -1,14 +1,15 @@
 {
   "name": "item-template",
-  "main": "dist/common-abstract.js",
+  "main": "dist/common-abstract.umd.js",
   "module": "dist/common-abstract.mjs",
   "license": "MIT",
+  "packageManager": "pnpm@7.21.0",
   "lint-staged": {
-    "{server,client}/*.{js,ts,json,md,tsx}": "yarn lint"
+    "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.gz.cvte.cn:sys_design_supply/bytello-meeting-os-frontend.git"
+    "url": "git@github.com:hengshanMWC/common-abstract.git"
   },
   "scripts": {
     "lint": "eslint --ext=js,ts,json,md,tsx .",
